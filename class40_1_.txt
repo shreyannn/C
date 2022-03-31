@@ -1,0 +1,14 @@
+
+Random file access in c: 
+We have three different inbuilt C functions for random file access:
+
+1. fseek (file, no of bytes to skip, position of file pointer)   -> changes the position of file pointer.
+   0 -> beginning of file.
+   1 -> current file pointer position.
+   2 -> end of file.
+
+2. ftell(file)   
+   it returns the location/ position of file pointer.
+
+3. rewind   
+   it sets file pointer position to beginning of file.
